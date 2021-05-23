@@ -1,8 +1,12 @@
 package com.ucreativa;
 
+import com.ucreativa.poc.Adolfo;
+
 public class Main {
 
     public static void main(String[] args) {
-	    System.out.println("Hola clase");
+	    Adolfo  estudiante = new Adolfo();
+
+
     }
 }
