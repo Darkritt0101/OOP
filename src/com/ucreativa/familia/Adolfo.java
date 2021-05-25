@@ -1,4 +1,4 @@
-package com.ucreativa.poc;
+package com.ucreativa.familia;
 
 public class Adolfo {
 
