@@ -1,8 +1,8 @@
 package com.ucreativa.familia;
 
-public class Adolfo {
+public class Adolfo extends Madre{
 
-    public Adolfo() {
+    public Adolfo (){
         System.out.println("Yo soy Adolfo");
     }
 }

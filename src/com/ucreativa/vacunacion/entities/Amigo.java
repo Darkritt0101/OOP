@@ -13,7 +13,6 @@ public class Amigo extends Persona {
         super(nombre, cedula, edad, riesgo);
     }
 
-
     public String getNombre() {
         return nombre;
     }
