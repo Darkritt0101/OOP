@@ -6,10 +6,10 @@ public class Madre {
     private int age;
     private String hobby;
 
-    public Madre(){
-        this.nombre = "Mercedes";
-        this.age = 55;
-        this.hobby = "Cuidar Plantas.";
+    public Madre(String nombre, int age, String hobby){
+        this.nombre = nombre;
+        this.age = age;
+        this.hobby = hobby;
     }
 
     public void setAge(){
