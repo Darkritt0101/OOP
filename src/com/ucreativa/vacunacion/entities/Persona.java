@@ -38,4 +38,13 @@ public class Persona {
         this.edad = edad + 1;
     }
 
+    @Override
+    public String toString() {
+        return "Persona{" +
+                "nombre='" + nombre + '\'' +
+                ", cedula='" + cedula + '\'' +
+                ", edad=" + edad +
+                ", riesgo=" + riesgo +
+                '}';
+    }
 }

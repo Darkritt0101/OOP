@@ -26,4 +26,13 @@ public class BitacoraVacunas {
     public Date getFecha() {
         return fecha;
     }
+
+    @Override
+    public String toString() {
+        return "BitacoraVacunas{" +
+                "persona=" + persona +
+                ", marca='" + marca + '\'' +
+                ", fecha=" + fecha +
+                '}';
+    }
 }
