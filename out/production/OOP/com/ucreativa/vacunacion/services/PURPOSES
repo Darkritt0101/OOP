@@ -1,0 +1,3 @@
+Aqui se extrae la logica que verifica los datos agregados por el usuario
+
+***salvar la informacion de las entitades, se abstrae esta logica en el package de servicios
