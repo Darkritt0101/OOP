@@ -9,6 +9,8 @@ import java.awt.event.ActionEvent;
 
 public class FrontEnd extends JFrame {
 
+
+
     public FrontEnd(String titulo){
         super(titulo);
     }
@@ -66,7 +68,7 @@ public class FrontEnd extends JFrame {
             }
         });
 
-        JButton salvar = new JButton("Salvar");
+            JButton salvar = new JButton("Salvar");
 
         salvar.addActionListener(new AbstractAction() {
             @Override
