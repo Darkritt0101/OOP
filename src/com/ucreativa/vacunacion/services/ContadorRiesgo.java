@@ -5,7 +5,7 @@ public class ContadorRiesgo {
     private int cantidadRiesgo;
     private static ContadorRiesgo instancia;
 
-    //este metodo se devuelve a el mismo
+    //este metodo se devuelve a el mismo // PATRON Singelton
     public static ContadorRiesgo getInstance(){
         if (instancia== null){
             instancia = new ContadorRiesgo();
